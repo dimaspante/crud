@@ -1,0 +1,22 @@
+{
+	"name": "dimaspante/crud",
+	"description": "Test CRUD",
+	"license": "MIT",
+	"authors": [
+        {
+            "name": "Dimas Pante",
+            "email": "dimaspante@gmail.com",
+            "homepage": "https://dimas.pante.com.br",
+            "role": "Developer"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Core\\": "core/"
+        }
+    },
+    "require": {
+		"php": ">=5.6",
+		"respect/validation": ">=1.1"
+    }
+}
